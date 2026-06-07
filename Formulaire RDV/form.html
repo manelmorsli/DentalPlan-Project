@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="styles.css">
+<body>
+    <div class="container">
+       
+     <div class="title">
+     Prendre rendez-vous
+</div>
+     <form action="#">
+       <div class="user-details">
+          <div class="input-box">
+             <span class="details"> Nom complet</span>
+             <input type="text" placeholder="Entrez votre nom" required>
+          </div>
+         <div class="input-box">
+            <span class="details"> Prénom</span>
+            <input type="text" placeholder="Entrez votre prénom" required>
+         </div>
+         <div class="input-box">
+            <span class="details"> Numéro de téléphone</span>
+            <input type="tel" placeholder="Entrez votre numéro" required>
+         </div>
+         <div class="input-box">
+            <span class="details">Adresse-email</span>
+            <input type="email" placeholder="" required>
+         </div>
+         <div class="input-box">
+            <span class="details"> Je suis disponible a partir du</span>
+            <input type="date"required>
+         </div>
+         <div class="input-box">
+            <span class="details"> Est ce que vous avez une maladie quelconque?</span>
+            <input type="text" required>
+         </div>
+       </div>
+       <div class="time-details">
+           <input type="radio" name="time" id="dot-1">
+           <input type="radio" name="time" id="dot-2">
+         
+          <span class="time-title">tu choisis</span>
+          <div class="category">
+              <label for="dot-1">
+                  <span class="dot one"></span>
+                  <span class="time"> la matinée</span>
+              </label>
+              <label for="dot-2">
+                <span class="dot two"></span>
+                <span class="time"> le soir</span>
+            </label>
+          </div>
+       </div>
+       <div class="button">
+           <input type="submit" value="Valider">
+       </div>
+    </form> 
+</div>
+</body>
+</html>
